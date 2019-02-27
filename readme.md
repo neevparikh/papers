@@ -14,7 +14,7 @@ associated links and I might have messed up some of them. PRs with more papers o
 [github](https://github.com/Luolc/AdaBound) | <NN>
 [reddit](https://reddit.com/r/MachineLearning/comments/auvj3q/r_adabound_an_optimizer_that_<NN>
 trains_as_fast_as/) | [open review](https://openreview.net/forum?id=Bkg3g2R9FX) | optimizer | new, <NN>
-not proven | 5/10 |
+not proven, TODO | 6/10 |
 | Evaluating the Search Phase of NAS | [arxiv](https://arxiv.org/abs/1902.08142) | <NN>
 [pdf](https://arxiv.org/pdf/1902.08142) | WBR |<NN>
 [reddit](https://www.reddit.com/r/MachineLearning/comments/atwnlh/r_evaluating_the_search_phase_of_neur<NN>
@@ -143,4 +143,36 @@ initialization scheme which allows for no batchnorm | very architecture specific
 [github](https://github.com/moskomule/senet.pytorch) | <NN>
 [reddit](https://www.reddit.com/r/MachineLearning/comments/6yg3ak/r170901507_<NN>
 squeezeandexcitation_networks_imagenet/) | NF | novel block for CNN | seems like an easy win | 9/10 |
+| Batch Renormalization | [arxiv](https://arxiv.org/abs/1702.03275) | <NN>
+[pdf](https://arxiv.org/pdf/1702.03275) | <NN>
+[github](https://github.com/titu1994/BatchRenormalization) | <NN>
+[reddit](https://www.reddit.com/r/MachineLearning/comments/5tr0cd/r_batch_renormalization_<NN>
+towards_reducing/) | NF | approach for using batch normalization when the batch size must be small | <NN>
+I found that it doesn't make much difference unless the batch size is very small, implemention is in <NN>
+keras | 5/10 |
+| GroupNorm | [arxiv](https://arxiv.org/abs/1803.08494) | [pdf](https://arxiv.org/pdf/1803.08494) | <NN>
+[github](https://github.com/kuangliu/pytorch-groupnorm) | <NN>
+[reddit](https://www.reddit.com/r/MachineLearning/comments/86gurl/r_group_normalization_fair/) | <NN>
+NF | alternative to batch normalization, better when batch must be very small | | 5/10 |
+| Attention Is All You Need | [arxiv](https://arxiv.org/abs/1706.03762) | <NN>
+[pdf](https://arxiv.org/pdf/1706.03762) | <NN>
+[github](https://github.com/jadore801120/attention-is-all-you-need-pytorch) | <NN>
+[reddit](https://www.reddit.com/r/MachineLearning/comments/6gwqiw/r_170603762_attention_is_all_<NN>
+you_need_sota_nmt/) | [NeurIPS Review](https://media.nips.cc/nipsbooks/nipspapers/paper_files/<NN>
+nips30/reviews/3058.html) | introduced transformer model for NLP | [medium](https://medium.com/@<NN>
+adityathiruvengadam/transformer-architecture-attention-is-all-you-need-aeccd9f50d09) TODO | 9/10 |
+| Deep Contextualized Word Representations (ELMo) | [arxiv](https://arxiv.org/abs/1802.05365) | <NN>
+[pdf](https://arxiv.org/pdf/1802.05365) | <NN>
+[github](https://github.com/allenai/bilm-tf) | <NN>
+[reddit](https://www.reddit.com/r/MachineLearning/comments/7xwp1t/r_180205365_deep_<NN>
+contextualized_word/) | NF | better embeddings | [blog](https://www.mihaileric.com/posts/deep-<NN>
+contextualized-word-representations-elmo/) implemention is in TF, TODO | 5/10 |
+| BERT | [arxiv](https://arxiv.org/abs/1810.04805) | [pdf](https://arxiv.org/pdf/1810.04805) | <NN>
+[github](https://github.com/huggingface/pytorch-pretrained-BERT) | <NN>
+[reddit](https://www.reddit.com/r/MachineLearning/comments/9nfqxz/r_bert_pretraining_<NN>
+of_deep_bidirectional/) | NF | state of the art NLP model which is easy to fine tune for a variety <NN>
+of tasks | variety of explanations online, [illustrated BERT](http://jalammar.github.io/<NN>
+illustrated-bert/), TODO | 9/10 |
+
+
 
