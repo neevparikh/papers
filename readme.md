@@ -173,6 +173,23 @@ contextualized-word-representations-elmo/) implemention is in TF, TODO | 5/10 |
 of_deep_bidirectional/) | NF | state of the art NLP model which is easy to fine tune for a variety <NN>
 of tasks | variety of explanations online, [illustrated BERT](http://jalammar.github.io/<NN>
 illustrated-bert/), TODO | 9/10 |
-
-
-
+| Transformer-XL | [arxiv](https://arxiv.org/abs/1901.02860) | [pdf](https://arxiv.org/pdf/1901.02860) | <NN>
+[github](https://github.com/kimiyoung/transformer-xl) | <NN>
+[reddit](https://www.reddit.com/r/MachineLearning/comments/aermoy/r_transformerxl_<NN>
+attentive_language_models_beyond/) | [open review](https://openreview.net/forum?id=HJePno0cYm) | <NN>
+arbitrary sequence length transformer | TODO | 8/10 |
+| Mean Teacher | [arxiv](https://arxiv.org/abs/1703.01780) | [pdf](https://arxiv.org/pdf/1703.01780) | <NN>
+[github](https://github.com/CuriousAI/mean-teacher) | NF | <NN>
+[open review](https://openreview.net/forum?id=ry8u21rtl) | semi-supervised learning technique | <NN>
+| 5/10 | 
+| Virtual Adversarial Training | [arxiv](https://arxiv.org/abs/1704.03976) | <NN>
+[pdf](https://arxiv.org/pdf/1704.03976) | <NN>
+[github](https://github.com/lyakaap/VAT-pytorch) | NF | NF | semi-supervised learning technique | <NN>
+TODO, right now SOTA | 7/10 |
+| Realistic Evaluation of Deep Semi-Supervised Learning Algorithms | <NN>
+[arxiv](https://arxiv.org/abs/1804.09170) | [pdf](https://arxiv.org/pdf/1804.09170) | <NN>
+[github](https://github.com/brain-research/realistic-ssl-evaluation) | <NN>
+[reddit](https://www.reddit.com/r/MachineLearning/comments/8eqxx0/r_realistic_evaluation_<NN>
+of_deep_semisupervised/) | [open review](https://openreview.net/forum?id=ByCZsFyPf) | creates <NN>
+evaluation framework for semi-supervised learning and possible errors when evaluating semi-supervised <NN>
+techniques | implemention is in TF | 7/10 |
