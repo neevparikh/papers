@@ -26,7 +26,7 @@ reproducibility_for_neural/) | NF | evaluating NAS approaches vs random search |
 | Neural Architecture Optimization | [arxiv](https://arxiv.org/abs/1808.07233) | <NN>
 [pdf](https://arxiv.org/pdf/1808.07233.pdf) | [github](https://github.com/renqianluo/NAO) |<NN>
 [reddit](https://www.reddit.com/r/MachineLearning/comments/9butdc/r_neural_architecture_optimization/) | <NN>
-NF | Uses encoder decoder set up for gradient based NAS |  | 4/10 |
+NF | Uses encoder decoder for gradient based NAS |  | 4/10 |
 | DARTS: Differentiable Architecture Search | [arxiv](https://arxiv.org/abs/1806.09055) | <NN>
 [pdf](https://arxiv.org/pdf/1806.09055) | [original](https://github.com/quark0/darts) <NN>
 [alternative](https://github.com/khanrc/pt.darts) |<NN>
@@ -50,3 +50,69 @@ WBR [just the model](https://github.com/MIT-HAN-LAB/ProxylessNAS) | <NN>
 [reddit](https://www.reddit.com/r/MachineLearning/comments/a3a1xy/r_proxylessnas_direct_neural_<NN>
 architecture_search/) | [open review](https://openreview.net/forum?id=HylVB3AqYm) | <NN>
 architecture search which adjusts branch probabilities and optimizes for latency | | 8/10 |
+| Deep Residual Learning for Image Recognition | [arxiv](https://arxiv.org/abs/1512.03385) <NN>
+| [pdf](https://arxiv.org/pdf/1512.03385) | [github](https://github.com/KaimingHe/deep-residual-networks)<NN>
+| [reddit](https://www.reddit.com/r/MachineLearning/comments/3wb6p9/msras_deep_residual_learning_for_<NN>
+image_recognition/) | NF | ResNets | <NN>
+[medium](https://medium.com/datadriveninvestor/paper-summary-deep-residual-learning-for-image-<NN>
+recognition-8c5ecedc6478) | 10/10 |
+| FractalNet | [arxiv](https://arxiv.org/abs/1605.07648) <NN>
+| [pdf](https://arxiv.org/pdf/1605.07648) | [github](https://github.com/khanrc/pt.fractalnet)<NN>
+| [reddit](https://www.reddit.com/r/MachineLearning/comments/4lexdd/fractalnet_ultradeep_neural_<NN>
+networks_without/) | [open review](https://openreview.net/forum?id=S1VaB4cex) | <NN>
+fractal architecture to reduce path length | residual nets won the war | 5/10 |
+| Identity Mappings in Deep Residual Networks | [arxiv](https://arxiv.org/abs/1603.05027) <NN>
+| [pdf](https://arxiv.org/pdf/1603.05027) | [github](https://github.com/KaimingHe/resnet-1k-layers)<NN>
+| [reddit](https://www.reddit.com/r/MachineLearning/comments/4asemg/160305027_identity_mappings_in_<NN>
+deep_residual/) | NF | ResNet v2 | | 8/10 |
+| Wide Residual Networks | [arxiv](https://arxiv.org/abs/1605.07146) <NN>
+| [pdf](https://arxiv.org/pdf/1605.07146) | [github](https://github.com/szagoruyko/wide-residual-<NN>
+networks) | [reddit](https://www.reddit.com/r/MachineLearning/comments/4krp3w/<NN>
+wide_residual_networks/) | NF | ResNet variant with wider layers and less depth | | 7/10 |
+| EraseReLU | [arxiv](https://arxiv.org/abs/1709.07634) <NN>
+| [pdf](https://arxiv.org/pdf/1709.07634) | NF | [reddit](https://www.reddit.com/r/MachineLearning/<NN>
+comments/72e4ju/r_eraserelu_a_simple_way_to_ease_the_training_of/) | NF | ResNet variant with <NN>
+removed ReLU | | 2/10 |
+| Deep Networks with Stochastic Depth | [arxiv](https://arxiv.org/abs/1603.09382) <NN>
+| [pdf](https://arxiv.org/pdf/1603.09382) | [github](https://github.com/yueatsprograms/Stochastic_Depth)<NN>
+| [reddit](https://www.reddit.com/r/MachineLearning/comments/4curk5/160309382v1_deep_networks_with_<NN>
+stochastic_depth/) | [open review](https://openreview.net/forum?id=BJm63h2F) | introduces stochastic <NN>
+depth in resnets | | 8/10 |
+| Deep Pyramidal Residual Networks | [arxiv](https://arxiv.org/abs/1610.02915) <NN>
+| [pdf](https://arxiv.org/pdf/1610.02915v1.pdf) | [github](https://github.com/dyhan0920/PyramidNet-<NN>
+PyTorch) | [reddit](https://www.reddit.com/r/MachineLearning/comments/5rr84i/r_arxiv161002915_deep_<NN>
+pyramidal_residual_networks/) | NF | optimizes resnet architecture including additive channels | <NN>
+[medium](https://medium.com/@sh.tsang/review-pyramidnet-deep-pyramidal-residual-networks-image-<NN>
+classification-85a87b60ae78)  best simple architecture for classification IMO | 9/10 |
+| Deep Pyramidal Residual Networks with Separated Stochastic Depth | <NN>
+[arxiv](https://arxiv.org/abs/1612.01230) | [pdf](https://arxiv.org/pdf/1612.01230) | <NN>
+[github](https://github.com/AkTgWrNsKnKPP/PyramidNet_with_Stochastic_Depth) | NF | <NN>
+[open review](https://openreview.net/forum?id=SkPxL0Vte) | tests ResDrop in pyramid net | <NN>
+not great paper or very innovative IMO, including for relevance to ShakeDrop | 1/10 |
+| Shake-Shake regularization | [arxiv](https://arxiv.org/abs/1705.07485) <NN>
+| [pdf](https://arxiv.org/pdf/1705.07485) | [github](https://github.com/xgastaldi/shake-shake) | <NN>
+[reddit](https://www.reddit.com/r/MachineLearning/comments/5vo14r/r_shakeshake_regularization_of_<NN>
+3branch_residual/) | [open review](https://openreview.net/forum?id=HkO-PCmYl) | stochasticly combines <NN>
+output from multiple branches | | 6/10 |
+| ShakeDrop Regularization for Deep Residual Learning | [arxiv](https://arxiv.org/abs/1802.02375) <NN>
+| [pdf](https://arxiv.org/pdf/1802.02375) | [github](https://github.com/imenurok/ShakeDrop) | NF | <NN>
+[open review](https://openreview.net/forum?id=S1NHaMW0b) | regularization technique for pyramid net | <NN>
+under rated IMO| 6/10 |
+|  MobileNets | [arxiv](https://arxiv.org/abs/1704.04861) <NN>
+| [pdf](https://arxiv.org/pdf/1704.04861) | [github](https://github.com/tensorflow/models/blob/master<NN>
+/research/slim/nets/mobilenet_v1.md) | [reddit](https://www.reddit.com/r/MachineLearning/comments<NN>
+/663m43/r_170404861_mobilenets_efficient_convolutional/) | NF | lightweight architecture for mobile<NN>
+, depthwise separable convolution | implemention is in TF <NN>
+[blog](https://ai.googleblog.com/2017/06/mobilenets-open-source-models-for.html)| 6/10 |
+|  MobileNet v2 | [arxiv](https://arxiv.org/abs/1801.04381) | [pdf](https://arxiv.org/pdf/1801.04381) | <NN>
+[github](https://github.com/tensorflow/models/tree/master/research/slim/nets/mobilenet) | <NN>
+[reddit](https://www.reddit.com/r/MachineLearning/comments/89g2b1/r_mobilenetv2<NN>
+_the_next_generation_of_ondevice/) | NF | improved mobilenet | implemention is in TF <NN>
+[blog](https://ai.googleblog.com/2018/04/mobilenetv2-next-generation-of-on.html)| 6/10 |
+| ShuffleNet | [arxiv](https://arxiv.org/abs/1707.01083) <NN>
+| [pdf](https://arxiv.org/pdf/1707.01083) | [github](https://github.com/jaxony/ShuffleNet) | <NN>
+[reddit](https://www.reddit.com/r/MachineLearning/comments/6lj295/r_170701083_shufflenet_<NN>
+an_extremely_efficient/) | NF | lightweight architecture for mobile, introduces channel shuffle || 7/10 |
+| ShuffleNet v2 | [arxiv](https://arxiv.org/abs/1807.11164) <NN>
+| [pdf](https://arxiv.org/pdf/1807.11164) | [github](https://github.com/ericsun99/Shufflenet-v2-Pytorch)<NN>
+| NF | NF | specific hardware focused optimizations | | 5/10 |
