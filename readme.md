@@ -12,7 +12,7 @@ associated links and I might have messed up some of them. PRs with more papers o
 |---|---|---|---|---|---|---|---|---|
 | AdaBound | [arxiv](https://arxiv.org/abs/1607.01097) | [pdf](https://arxiv.org/pdf/1607.01097.pdf) | <NN>
 [github](https://github.com/Luolc/AdaBound) | <NN>
-[reddit](https://old.reddit.com/r/MachineLearning/comments/auvj3q/r_adabound_an_optimizer_that_<NN>
+[reddit](https://reddit.com/r/MachineLearning/comments/auvj3q/r_adabound_an_optimizer_that_<NN>
 trains_as_fast_as/) | [open review](https://openreview.net/forum?id=Bkg3g2R9FX) | optimizer | new, <NN>
 not proven | 5/10 |
 | Evaluating the Search Phase of NAS | [arxiv](https://arxiv.org/abs/1902.08142) | <NN>
@@ -116,3 +116,31 @@ an_extremely_efficient/) | NF | lightweight architecture for mobile, introduces 
 | ShuffleNet v2 | [arxiv](https://arxiv.org/abs/1807.11164) <NN>
 | [pdf](https://arxiv.org/pdf/1807.11164) | [github](https://github.com/ericsun99/Shufflenet-v2-Pytorch)<NN>
 | NF | NF | specific hardware focused optimizations | | 5/10 |
+| Super-Convergence | [arxiv](https://arxiv.org/abs/1708.07120) <NN>
+| [pdf](https://arxiv.org/pdf/1708.07120) | [github](https://github.com/lnsmith54/super-convergence)<NN>
+| [reddit](https://www.reddit.com/r/MachineLearning/comments/6vnp6b/r_170807120_superconvergence_<NN>
+very_fast_training/) | [open review](https://openreview.net/forum?id=H1A5ztj3b) | <NN>
+approach for using learning rate schedule to speed up training | in practice leads to higher variance <NN>
+in final validation loss, works very well in general | 7/10 |
+| Decoupled Weight Decay Regularization | [arxiv](https://arxiv.org/abs/1711.05101) <NN>
+| [pdf](https://arxiv.org/pdf/1711.05101) | [pr](https://github.com/pytorch/pytorch/pull/3740)<NN>
+| [reddit](https://www.reddit.com/r/MachineLearning/comments/7d5qob/r_171105101_fixing_weight_<NN>
+decay_regularization_in/) | [initial open review](https://openreview.net/forum?id=rk6qdGgCZ) <NN>
+[second open review](https://openreview.net/forum?id=Bkg6RiCqY7) | adam works better with decoupled <NN>
+weight decay | always use decoupled weight decay | 7/10 |
+| Parallel Architecture and Hyperparameter Search via Successive Halving and Classification | <NN>
+[arxiv](https://arxiv.org/abs/1805.10255) | [pdf](https://arxiv.org/pdf/1805.10255) | <NN>
+[github](https://github.com/titu1994/pyshac) | NF | NF | search approach | simple, not best choice for <NN>
+architecture search IMO | 5/10 |
+| Fixup Initialization | [arxiv](https://arxiv.org/abs/1901.09321) | <NN>
+[pdf](https://arxiv.org/pdf/1901.09321) | <NN>
+[github](https://github.com/ajbrock/BoilerPlate/blob/master/Models/fixup.py) | <NN>
+[reddit](https://www.reddit.com/r/MachineLearning/comments/amw8i0/r_fixup_initialization_<NN>
+residual_learning_without/) | [open review](https://openreview.net/forum?id=H1gsz30cKX) | <NN>
+initialization scheme which allows for no batchnorm | very architecture specific | 4/10 |
+| Squeeze-and-Excitation Networks | [arxiv](https://arxiv.org/abs/1709.01507) | <NN>
+[pdf](https://arxiv.org/pdf/1709.01507) | <NN>
+[github](https://github.com/moskomule/senet.pytorch) | <NN>
+[reddit](https://www.reddit.com/r/MachineLearning/comments/6yg3ak/r170901507_<NN>
+squeezeandexcitation_networks_imagenet/) | NF | novel block for CNN | seems like an easy win | 9/10 |
+
